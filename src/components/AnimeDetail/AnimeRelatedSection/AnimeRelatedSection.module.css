@@ -1,0 +1,48 @@
+.recommendationsContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.5rem;
+
+  color: #ec4899;
+}
+
+.recommendationsWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.recommendations {
+  background-color: #f9fafb;
+  border-radius: 10px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+
+  max-width: 70vw;
+
+  display: flex;
+  align-items: center;
+
+  overflow-x: scroll;
+}
+
+.noRelated {
+  display: flex;
+  flex-direction: column;
+}
+
+.noRelatedImgWrapper {
+  max-width: 100%;
+}
+
+.noRelatedImg {
+  width: 100%;
+  object-fit: cover;
+}

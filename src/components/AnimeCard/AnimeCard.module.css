@@ -1,0 +1,55 @@
+.link {
+  text-decoration: none;
+  color: black;
+
+  cursor: pointer;
+}
+
+.card {
+  background-color: #f9fafb;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+  width: 400px;
+  height: 100%;
+
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.imgWrapper {
+  max-width: 100%;
+
+  align-self: center;
+}
+
+.img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.score {
+  display: flex;
+  align-self: center;
+}
+
+.starIcon {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 540px) {
+  .card {
+    width: 350px;
+  }
+}
