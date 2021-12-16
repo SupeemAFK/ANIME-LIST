@@ -1,0 +1,117 @@
+.loading {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 3.5rem;
+
+  color: #ec4899;
+}
+
+.selectSeason {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 1rem 0;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  border: none;
+  border-radius: 10px;
+  background-color: #f9a8d4;
+  color: #ffffff;
+
+  font-size: 1rem;
+  font-weight: 500;
+
+  padding: 0.5rem;
+  margin: 1rem;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
+
+.dateInputForm {
+  margin-left: 5rem;
+
+  display: flex;
+}
+
+.dateInput {
+  background-color: #f9fafb;
+  border-radius: 10px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+
+  font-weight: 600;
+  font-size: 1rem;
+
+  cursor: pointer;
+}
+
+.dateInput:hover {
+  border: 1px solid #f9a8d4;
+}
+
+.dateInputBtn {
+  border: none;
+  border-radius: 10px;
+  background-color: #f9a8d4;
+  color: #ffffff;
+
+  font-size: 1rem;
+  font-weight: 500;
+
+  padding: 0.5rem;
+  margin: 1rem;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.dateInputBtn:hover {
+  background-color: #db2777;
+}
+
+.animeGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-gap: 1rem;
+  justify-items: center;
+}
+
+@media (max-width: 768px) {
+  .selectSeason {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 414px) {
+  .animeGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    justify-items: center;
+  }
+
+  .selectSeason {
+    flex-direction: column;
+  }
+}

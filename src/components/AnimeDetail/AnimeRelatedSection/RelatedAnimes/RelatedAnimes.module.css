@@ -1,0 +1,49 @@
+.relatedAnimesContainer {
+  text-decoration: none;
+
+  padding: 1rem;
+}
+
+.relatedAnimes {
+  background-color: #f9fafb;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+
+  width: 250px;
+
+  padding: 1rem;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.relatedAnimes:hover {
+  transform: scale(1.1);
+}
+
+.imgWrapper {
+  max-width: 70%;
+}
+
+.img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.title {
+  text-align: center;
+
+  color: black;
+}
+
+@media screen and (max-width: 540px) {
+  .relatedAnimes {
+    width: 200px;
+  }
+}

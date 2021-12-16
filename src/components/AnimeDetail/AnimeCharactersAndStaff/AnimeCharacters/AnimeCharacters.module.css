@@ -1,0 +1,164 @@
+.animeCharacters {
+  background-color: #f9fafb;
+  border-radius: 10px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+
+  padding: 1rem 5rem;
+  margin-top: 1rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.characterDetails {
+  width: 200px;
+
+  display: flex;
+  align-items: center;
+}
+
+.imgWrapper {
+  width: 100px;
+}
+
+.img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.characterInfo {
+  margin-left: 1rem;
+}
+
+.voiceActorsContainer {
+  width: 500px;
+
+  margin-left: auto;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.voiceActors {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+.voiceActorImgWrapper {
+  max-width: 100%;
+}
+
+.voiceActorImg {
+  width: 100%;
+  object-fit: cover;
+}
+
+.voiceActorsInfo {
+  margin-left: 2rem;
+}
+
+.noVoiceActors {
+  text-align: center;
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .voiceActorsContainer {
+    width: auto;
+
+    margin-top: 1rem;
+    margin-left: auto;
+    padding: 0;
+  }
+
+  .voiceActors {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .voiceActorsInfo {
+    margin-left: 1rem;
+
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 540px) {
+  .animeCharacters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .voiceActorsContainer {
+    margin-top: 1rem;
+    padding: 0;
+
+    width: 100%;
+  }
+
+  .voiceActors {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .voiceActorImgWrapper {
+    max-width: 100%;
+  }
+
+  .voiceActorsInfo {
+    margin-left: 1rem;
+
+    font-size: 0.8rem;
+  }
+
+  .noVoiceActors {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .animeCharacters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .voiceActorsContainer {
+    flex-direction: column;
+
+    margin-top: 3rem;
+    padding: 0;
+
+    width: 100%;
+  }
+
+  .voiceActors {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .voiceActorImgWrapper {
+    max-width: 100%;
+  }
+
+  .voiceActorsInfo {
+    font-size: 0.8rem;
+  }
+
+  .noVoiceActors {
+    font-size: 0.8rem;
+  }
+}
