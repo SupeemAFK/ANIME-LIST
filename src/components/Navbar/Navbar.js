@@ -31,7 +31,7 @@ export default function Navbar() {
         <div className={styles.navbar}>
             <div className={styles.logoWrapper} onClick={() => setAnimeName('')}>
                 <Link to="/">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Nana_anime_logo.svg/1280px-Nana_anime_logo.svg.png" className={styles.logo} alt="" />
+                    <img src="/AnimeList.png" className={styles.logo} alt="" />
                 </Link>
             </div>
             <div className={styles.searchAnimeContainer}>

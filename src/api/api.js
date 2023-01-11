@@ -5,7 +5,7 @@ const URL = "https://api.jikan.moe/v4"
 //get Top Anime
 export async function getTopAime(page) {
     try {
-        const { data: { data } } = await axios.get(URL+`/top/anime?=${page}`);
+        const { data: { data } } = await axios.get(URL+`/top/anime?page=${page}`);
         return data
 
     } catch (error) {
