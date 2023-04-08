@@ -10,8 +10,8 @@ export default function AnimeCharacters({ person, positions }) {
                     <img src={person.images.jpg.image_url} alt={person.name} className={styles.img}/>
                 </div>
                 <div className={styles.characterInfo}>
-                    <h3>{person.name}</h3>
-                    {positions.map((position, i) => <p key={i}>{position}</p>)}
+                    <h3 className={styles.name}>{person.name}</h3>
+                    {positions.map((position, i) => <p className={styles.positions} key={i}>{position}</p>)}
                 </div>
             </div>
         </div>

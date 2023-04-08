@@ -6,13 +6,10 @@
 
 .relatedAnimes {
   background-color: #f9fafb;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   border: 1px solid #e6e6e6;
   border-radius: 10px;
 
-  width: 250px;
-
-  padding: 1rem;
+  width: 150px;
 
   display: flex;
   align-items: center;
@@ -28,10 +25,14 @@
 }
 
 .imgWrapper {
-  max-width: 70%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 100%;
 }
 
 .img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
   width: 100%;
   object-fit: cover;
 }

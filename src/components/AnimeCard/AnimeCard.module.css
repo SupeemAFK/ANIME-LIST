@@ -10,12 +10,8 @@
   border: 1px solid #e6e6e6;
   border-radius: 10px;
 
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-
-  width: 400px;
+  width: 250px;
   height: 100%;
-
-  padding: 1rem;
 
   display: flex;
   flex-direction: column;
@@ -29,14 +25,22 @@
 }
 
 .imgWrapper {
-  max-width: 100%;
-
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   align-self: center;
 }
 
 .img {
   width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;  
   object-fit: cover;
+}
+
+.info {
+  padding: 1rem;
+  font-size: small;
 }
 
 .score {
@@ -50,6 +54,6 @@
 
 @media (max-width: 540px) {
   .card {
-    width: 350px;
+    width: 200px;
   }
 }
