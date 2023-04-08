@@ -46,6 +46,10 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .characterInfo {
+    font-size: 0.3rem;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -53,5 +57,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .characterInfo {
+    font-size: 1rem;
   }
 }
